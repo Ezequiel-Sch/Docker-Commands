@@ -185,6 +185,6 @@ Remove the original zip file:
 
 The solution is to download, unpack and remove files in a single instruction.
 
-`RUN curl <file_download_url> -o <destination_directory/filename.zip> \&& unzip <destination_directory/filename.zip> -d <unzipped-directory> \&& rm <destination_directory/filename.zip>`
+```RUN curl <file_download_url> -o <destination_directory/filename.zip> \&& unzip <destination_directory/filename.zip> -d <unzipped-directory> \&& rm <destination_directory/filename.zip>```
 
 --------------------------------------------------------------------------------------------------------------------
